@@ -1,0 +1,29 @@
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 50px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width:600px){
+    .conteiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 20px
+    }
+}
